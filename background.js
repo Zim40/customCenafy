@@ -9,7 +9,7 @@ let timeoutId;
 
 function getCenafyVideo() {
   const video = document.createElement("video");
-  video.src = chrome.runtime.getURL("cena.mp4");
+  video.src = chrome.runtime.getURL("Dale.mp4");
   Object.assign(video.style, {
     position: "fixed",
     background: "black",
