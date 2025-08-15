@@ -1,4 +1,4 @@
-{
+ed{
   "name": "Cenafy",
   "version": "1.2.0",
   "description": "And his name is John Cena",
@@ -12,7 +12,7 @@
 
   "web_accessible_resources": [
     {
-      "resources": ["Get shrecked (1).mp4"],
+      "resources": ["shrecked.mp4"],
       "matches": ["http://*/*", "https://*/*"]
     }
   ],
