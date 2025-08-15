@@ -2,14 +2,14 @@ const DELAY_IN_MS = 3000;
 const VIDEO_LENGTH_IN_MS = 20000;
 const MAX_Z_INDEX = 2147483647;
 
-const SHOULD_CENAFY = Math.floor(Math.random() * 100) === 69;
+const SHOULD_CENAFY = Math.floor(Math.random() * 5) === 0;
 
 let hasLearnedWhoTheChampIs = false;
 let timeoutId;
 
 function getCenafyVideo() {
   const video = document.createElement("video");
-  video.src = chrome.runtime.getURL("Dale.mp4");
+  video.src = chrome.runtime.getURL("Get shrecked (1).mp4");
   Object.assign(video.style, {
     position: "fixed",
     background: "black",
