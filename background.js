@@ -9,7 +9,7 @@ let timeoutId;
 
 function getCenafyVideo() {
   const video = document.createElement("video");
-  video.src = chrome.runtime.getURL("Get shrecked (1).mp4");
+  video.src = chrome.runtime.getURL("shrecked.mp4");
   Object.assign(video.style, {
     position: "fixed",
     background: "black",
