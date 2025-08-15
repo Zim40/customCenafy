@@ -2,7 +2,7 @@ const DELAY_IN_MS = 3000;
 const VIDEO_LENGTH_IN_MS = 20000;
 const MAX_Z_INDEX = 2147483647;
 
-const SHOULD_CENAFY = Math.floor(Math.random() * 5) === 0;
+const SHOULD_CENAFY = Math.floor(Math.random() * 10) === 0;
 
 let hasLearnedWhoTheChampIs = false;
 let timeoutId;
